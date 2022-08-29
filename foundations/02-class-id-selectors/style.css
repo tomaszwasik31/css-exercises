@@ -1,0 +1,19 @@
+p{
+    background-color: rgb(255, 0, 106);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#nr2 {
+color: rgb(0, 110, 255);
+font-size: 36px;
+}
+
+#nr3{
+    font-size: 24px;
+}
+
+#nr4{
+    background-color: rgb(68, 128, 0);
+    font-size: 24px;
+    font-weight: bold;
+}

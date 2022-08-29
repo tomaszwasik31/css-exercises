@@ -26,3 +26,57 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* my css */
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
+}
+main{
+  display: flex;
+  flex: 1;
+  
+}
+.footer{
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.sidebar{
+  width: 300px;
+  flex-shrink: 0;
+  
+}
+
+ul{
+  list-style: none;
+  padding: 0px 16px;
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.cards-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 32px;
+  
+}
+
+.card{
+padding: 32px;
+max-width: 280px;
+}
